@@ -1,0 +1,14 @@
+# Aircraft sound references
+
+The requested clips were inspected in YouTube's native browser player. Their titles and visible frames establish the intended style; the browser tools do not provide the audible track to the agent, so this is not a claim of an audio listening comparison.
+
+| Reference | Observed context | Game treatment |
+| --- | --- | --- |
+| [A-10](https://www.youtube.com/watch?v=zCz9jrsa67w) | “COD MW II (2022) *NEW* PRECISION AIR STRIKE SOUND”, 19 seconds. Visible frontal A-10 pass, twin high engines, straight wings and twin tails. | Keep the genuine GAU-8 run prominent over jet noise. The engine approaches, changes pitch with radial motion and recedes; the gun report has priority in the mix. |
+| [AC-130](https://www.youtube.com/shorts/0YfRFGN-RQ8) | “AC-130 Gunship Firing All Weapons”, 53 seconds. Standard watch player exposed interior gun crew and side cannon footage. | Sustained four-propeller beat during the orbit, distinct crisp 30 mm reports and a deeper 105 mm concussion with a longer tail. Fire remains synchronized to simulation events. |
+| [B-2 flyby](https://youtu.be/HRnLI6ifivM) | “B-2 Spirit Bomber Flyby Sound Effects \| High Quality Aircraft Sounds”, 63 seconds. Page metadata loaded, but the player reported a playback error. | Original low, smooth jet roar with camera-relative approach/departure fade and Doppler pitch. |
+| [Bombs](https://youtu.be/no-YxFBG1k4) | “COD WW2 But it's clean carpet bombing audio for personal use”, 48 seconds. Visible first-person ground scene. | Mechanical release, a falling air-rush whistle that follows the actual bomb's progress, then impact pressure, rumble and debris. |
+
+No media from these YouTube uploads is bundled. The GAU-8 is the existing public-domain DVIDS excerpt; aircraft engines, cannon reports, bomb sounds and deployment-specific rifle/sniper reports are original deterministic PCM synthesis. This preserves a distinct sound for each deployment without changing a weapon's voice on every shot.
+
+The mixer caches four rifle and four sniper variations, uses the deployed unit ID for weapon throttling, limits transient voices to 18 and ducks active engines under the GAU-8 and explosions. The complete GAU-8 burst and decay is protected from voice eviction and repeated preview taps. Bomb whistles fade into the blast over 200 ms when their projectile reaches impact. Pausing lets already-fired one-shots finish their tails and fades engine loops; muting, app backgrounding, reset and audio interruptions fade out all voices before retiring players. The sound settings preview remains available during planning. There is no constant city/aircraft drone while no flight is present, and no civilian or zombie voice assets are bundled. The two sound controls govern combat reports and active aircraft/vehicles.

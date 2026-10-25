@@ -1,0 +1,33 @@
+Casablanca offline map data
+
+© OpenStreetMap contributors. The map database in CasablancaMap.json is
+available under the Open Data Commons Open Database License 1.0 (ODbL):
+https://opendatacommons.org/licenses/odbl/1-0/
+
+Source database: OpenStreetMap, distributed as the Geofabrik Morocco extract.
+Downloaded 2026-10-09 from:
+https://download.geofabrik.de/africa/morocco-261009.osm.pbf
+Extract information: https://download.geofabrik.de/africa/morocco.html
+OSM attribution and copyright: https://www.openstreetmap.org/copyright
+
+This game distributes the derived Casablanca database in full as
+CasablancaMap.json. Its road centerlines, building footprints, coastline,
+and park locations are georeferenced OpenStreetMap data. Heights are used
+from OSM height/building:levels tags where available; missing heights are
+estimated for visual presentation. Custom landmark models are authored
+interpretations and are not survey-quality reproductions.
+
+The offline extract covers the connected Casablanca urban area, from the
+western Corniche/Ain Diab through Sidi Bernoussi and Sidi Moumen, and south
+to Lissasfa and Sidi Maarouf (33.47–33.67 N, 7.79–7.43 W). It is not a legal
+administrative-boundary map of Greater Casablanca. Geometry is simplified
+for real-time iPhone rendering; isolated private/disconnected streets are
+not part of the simulation's connected public-street routing network.
+
+Reproduction script: scripts/import-casablanca.py
+CasablancaPreview.json is a simplified thumbnail derived from the same
+database under the same license. Reproduce it with
+scripts/create-map-preview.swift after importing CasablancaMap.json.
+Game-space projection: equirectangular at 33.57 N, 0.235 world units/meter,
+north up; x = 75 + (longitude + 7.79) * 111320 * cos(33.57°) * 0.235,
+y = 800 + (33.67 - latitude) * 111320 * 0.235.

@@ -1,0 +1,38 @@
+.DS_Store
+build/
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+.swiftpm/
+
+# Python tooling caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment and signing credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.p12
+*.p8
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+*.cer
+*.cert
+
+# Generated app packages, diagnostics and profiling output
+*.ipa
+*.xcarchive/
+*.dSYM/
+*.xcresult/
+*.trace/
+*.log

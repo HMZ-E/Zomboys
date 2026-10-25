@@ -1,0 +1,36 @@
+Settat offline map database
+
+© OpenStreetMap contributors. SettatMap.json and its simplified selector
+thumbnail, SettatPreview.json, are available under the Open Data Commons
+Open Database License 1.0 (ODbL):
+https://opendatacommons.org/licenses/odbl/1-0/
+Attribution: https://www.openstreetmap.org/copyright
+
+Source database: OpenStreetMap, Geofabrik Morocco extract downloaded
+2026-10-09 from https://download.geofabrik.de/africa/morocco-261009.osm.pbf
+OSM replication timestamp: 2026-10-09T20:21:04Z.
+Extract information: https://download.geofabrik.de/africa/morocco.html
+Settat extract produced 2026-10-11 with scripts/import-settat.py.
+
+The complete derived database is distributed as SettatMap.json. It retains
+georeferenced public-road centerlines, building footprints and parks inside
+32.968–33.044 N, 7.668–7.576 W, covering Settat's city core, university area
+and rural road approaches. This is a compact playable extract, not a legal
+administrative-boundary map. Only the largest connected public-street graph
+is navigable; isolated visual streets remain visible.
+Known sections of long regional roads are retained despite distant references
+outside the extract. Navigation edges crossing the playable square are clipped
+at its boundary, preserving the exterior approach roads.
+
+Buildings use OSM heights or building levels where tagged. Missing heights
+are deterministic visual estimates. Custom landmark models are original
+game silhouettes with approximate dimensions, not surveyed architectural
+reproductions. The game uses no satellite or map imagery.
+
+Projection: equirectangular at 33.006 N, 0.35 world units per meter, north up.
+x = 100 + (longitude + 7.668) * 111320 * cos(33.006°) * 0.35
+y = 100 + (33.044 - latitude) * 111320 * 0.35
+Playable square: 3,200 world units per side.
+
+Reproduce the selector thumbnail with scripts/create-map-preview.swift settat
+after importing the database. Landmark source notes: docs/SettatMapNotes.md.
