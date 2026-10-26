@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Zomboys</title>
+  <desc id="desc">A lime Zomboys wordmark beside an abstract tactical street map. Horde-defense strategy, Casablanca and Settat, Morocco.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111911"/>
+      <stop offset="1" stop-color="#222c1d"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#d6ff52" stroke-opacity=".055"/>
+    </pattern>
+    <clipPath id="edge"><rect width="1280" height="420" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#edge)">
+    <rect width="1280" height="420" fill="url(#background)"/>
+    <rect width="1280" height="420" fill="url(#grid)"/>
+    <g transform="translate(744 -18) rotate(-12 240 220)">
+      <g fill="#35412e" stroke="#536044" stroke-width="1">
+        <path d="M20 36h112v90H20zM158 36h100v90H158zM284 36h74v90h-74zM384 36h126v90H384z"/>
+        <path d="M20 152h112v76H20zM158 152h100v76H158zM284 152h74v76h-74zM384 152h126v76H384z"/>
+        <path d="M20 254h112v108H20zM158 254h100v108H158zM284 254h74v108h-74zM384 254h126v108H384z"/>
+        <path d="M20 388h112v76H20zM158 388h100v76H158zM284 388h74v76h-74zM384 388h126v76H384z"/>
+      </g>
+      <g fill="#607052" opacity=".55">
+        <path d="M28 44h42v32H28zM79 44h45v74H79zM166 44h84v33h-84zM166 85h38v64h-38zM292 160h58v60h-58zM392 44h50v74h-50zM450 44h52v30h-52zM28 262h96v38H28zM28 309h43v45H28zM166 262h84v92h-84zM392 262h110v36H392zM392 307h46v47h-46zM446 307h56v47h-56z"/>
+      </g>
+      <path d="M145 445V241H371V139H535" fill="none" stroke="#d6ff52" stroke-width="3" stroke-dasharray="9 9" opacity=".8"/>
+      <path d="M271 0v141H145v100H-15" fill="none" stroke="#7fc8b4" stroke-width="2" opacity=".6"/>
+      <g fill="#d6ff52">
+        <circle cx="145" cy="300" r="4"/><circle cx="145" cy="287" r="3"/><circle cx="145" cy="274" r="4"/>
+        <circle cx="160" cy="241" r="4"/><circle cx="174" cy="237" r="3"/><circle cx="187" cy="244" r="4"/>
+        <circle cx="202" cy="238" r="3"/><circle cx="215" cy="243" r="4"/><circle cx="229" cy="239" r="3"/>
+        <circle cx="243" cy="244" r="4"/><circle cx="257" cy="236" r="3"/><circle cx="271" cy="243" r="4"/>
+        <circle cx="285" cy="239" r="3"/><circle cx="300" cy="244" r="4"/><circle cx="315" cy="238" r="3"/>
+        <circle cx="331" cy="241" r="4"/><circle cx="345" cy="237" r="3"/>
+      </g>
+      <g fill="#f1f2e8">
+        <circle cx="82" cy="140" r="3"/><circle cx="93" cy="135" r="3"/><circle cx="104" cy="142" r="3"/>
+        <circle cx="117" cy="138" r="3"/><circle cx="130" cy="142" r="3"/><circle cx="144" cy="134" r="3"/>
+      </g>
+      <circle cx="371" cy="139" r="31" fill="#d6ff52" fill-opacity=".06" stroke="#d6ff52" stroke-opacity=".7"/>
+      <path d="M371 98v21m0 40v21m-41-41h21m40 0h21" stroke="#d6ff52" stroke-width="2"/>
+      <circle cx="371" cy="139" r="5" fill="#d6ff52"/>
+      <path d="M272 330l-8 17h16z" fill="#ff7960"/>
+    </g>
+    <path d="M690 0h130L690 420H560z" fill="#111911" fill-opacity=".7"/>
+    <rect x="48" y="48" width="46" height="46" rx="12" fill="#d6ff52"/>
+    <path d="M61 62h20L62 81h20" fill="none" stroke="#141c12" stroke-width="6" stroke-linejoin="round"/>
+    <text x="110" y="77" fill="#b1bca5" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="3">HORDE-DEFENSE STRATEGY</text>
+    <text x="45" y="205" fill="#d6ff52" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="900" letter-spacing="-4">ZOMBOYS</text>
+    <text x="51" y="255" fill="#f1f2e8" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">THE CITY IS THE FRONT LINE.</text>
+    <path d="M52 291h52" stroke="#d6ff52" stroke-width="3"/>
+    <text x="51" y="332" fill="#b1bca5" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="2">CASABLANCA + SETTAT</text>
+    <text x="51" y="362" fill="#7f9176" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3">MOROCCO · iPHONE · OFFLINE</text>
+    <path d="M1210 343v38h-38M70 381H48v-22" fill="none" stroke="#d6ff52" stroke-opacity=".4"/>
+    <rect x=".5" y=".5" width="1279" height="419" rx="24" fill="none" stroke="#526042"/>
+  </g>
+</svg>
